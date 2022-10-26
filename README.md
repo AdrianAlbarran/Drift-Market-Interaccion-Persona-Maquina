@@ -31,9 +31,9 @@ Unity
  <table>
   <thead>
     <tr>
-      <th> FULL_NAME </th> 
-      <th> COLLEGE_EMAIL </th> 
-      <th> GITHUB </th> 
+      <th> Nombre completo </th> 
+      <th> Email universitario </th> 
+      <th> Usuario de Github </th> 
     </tr>
   </thead>
   <tbody>
