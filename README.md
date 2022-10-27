@@ -28,7 +28,7 @@ Una vez terminado, el juego se publicará en la plataforma de Itch.io y se está
 Coordinación del equipo. Para la coordinación del equipo se usará Trello, usando <a href = "https://trello.com/invite/b/Wnt1HH8i/ATTI548dca5b7cd2ba6b970a511cec0176de1F96C099/interaccion-persona-maquina">este tablero</a>.
 
 ## - Motor de juego:
-Unity
+Se usará Unity
 
  ## Team:
  <table>
