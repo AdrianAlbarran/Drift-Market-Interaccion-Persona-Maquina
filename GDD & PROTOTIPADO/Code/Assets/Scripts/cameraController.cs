@@ -27,8 +27,7 @@ public class cameraController : MonoBehaviour
     }
 
     private void follow() {
-        bool back = Input.GetKey(KeyCode.S);
-        if (back) {
+        if (Input.GetAxis("Vertical") < -0.5) {
             gameObject.transform.position = Vector3.Lerp(transform.position, childBack.transform.position, Time.deltaTime * speed);
             gameObject.transform.LookAt(lookBehind.gameObject.transform.position);
         } else {
