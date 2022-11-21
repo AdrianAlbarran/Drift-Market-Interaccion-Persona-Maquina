@@ -7,7 +7,19 @@ using UnityEngine;
 public class Objects : ScriptableObject
 {
     public string nombre;
-    public bool recogido;
+    public string fullName;
+    public bool recogido=false;
+    [HideInInspector]
     public GameObject spawn;
+
+    public void findHotspot()
+    {
+        recogido = false;
+        spawn = GameObject.Find(nombre);
+        spawn.SetActive(false);
+    }
+
     
 }
+
+

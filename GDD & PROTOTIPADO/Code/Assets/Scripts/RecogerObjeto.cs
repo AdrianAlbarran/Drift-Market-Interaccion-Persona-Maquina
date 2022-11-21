@@ -1,37 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class RecogerObjeto : MonoBehaviour
 {
     public GameObject UI;
-    private GameObject luz;
-    private bool objetoRecogido;
+
+    public Objects nObjeto;
+
+    public ShoppingList lista;
+
+    private bool recogido;
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == ("Player"))
         {
             UI.gameObject.SetActive(true);
+            UI.GetComponent<TextMeshProUGUI>().text = "Pulsa F para Recoger " + nObjeto.fullName;
+            recogido = true;
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == ("Player"))
         {
             UI.gameObject.SetActive(false);
+            recogido = false;
         }
     }
+
     public void Update()
     {
-
-        if (UI.activeSelf && !objetoRecogido)
+        if (UI.activeSelf && recogido)
         {
             if (Input.GetKeyDown("f"))
             {
-                luz = GameObject.Find("Spot Light");
-                luz.SetActive(false);
+                recogido = false;
+                nObjeto.recogido = true;
+                lista.objectTaken();
+                GetComponent<Light>().enabled=false;
                 UI.gameObject.SetActive(false);
+                
                 Destroy(this);
             }
         }

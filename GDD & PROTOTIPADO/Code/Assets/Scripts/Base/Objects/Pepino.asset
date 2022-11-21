@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4426f21c90f4449a8c3fde3c72c245, type: 3}
   m_Name: Pepino
   m_EditorClassIdentifier: 
-  nombre: Pepino de Marte
+  nombre: Pepino
+  fullName: Pepino de Marte
   recogido: 0
   spawn: {fileID: 0}

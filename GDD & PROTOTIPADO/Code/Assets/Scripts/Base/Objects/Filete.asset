@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4426f21c90f4449a8c3fde3c72c245, type: 3}
   m_Name: Filete
   m_EditorClassIdentifier: 
-  nombre: "Filte de Megaloat\xFAn"
+  nombre: Filete
+  fullName: "Filete de Megaloat\xFAn"
   recogido: 0
   spawn: {fileID: 0}

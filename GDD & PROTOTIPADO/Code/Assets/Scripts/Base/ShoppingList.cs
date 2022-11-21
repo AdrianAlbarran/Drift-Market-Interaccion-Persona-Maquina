@@ -17,7 +17,7 @@ public class ShoppingList : MonoBehaviour
     [SerializeField]
     private GameObject uiList;
 
-    private GameObject[] prefabs;
+    public GameObject[] prefabs;
 
     private bool fullList;
 
@@ -32,34 +32,35 @@ public class ShoppingList : MonoBehaviour
     {
     }
 
-    public void objectTaken(Objects aux)
+    public void objectTaken()
     {
-        int idx = listObjects.BinarySearch(aux);
-        listObjects[idx].recogido = true;
         updateList(toString());
     }
 
     public void openList()
     {
+        for (int i = 0; i < allObjects.Length; i++)
+        {
+            allObjects[i].findHotspot();
+        }
         usedValues = new List<int>();
         for (int i = 0; i < listSize; i++)
         {
-            int val = Random.Range(0, allObjects.Length - 1);
+            int val = Random.Range(0, allObjects.Length);
             if (usedValues.Count == 0)
             {
                 usedValues.Add(val);
-                //allObjects[val].spawn?.SetActive(true);
+                allObjects[val].spawn.SetActive(true);
                 listObjects.Add(allObjects[val]);
-                
             }
             else
             {
                 while (usedValues.Contains(val))
                 {
-                    val = Random.Range(0, allObjects.Length - 1);
+                    val = Random.Range(0, allObjects.Length);
                 }
                 usedValues.Add(val);
-                //allObjects[val].spawn?.SetActive(true);
+                allObjects[val].spawn.SetActive(true);
                 listObjects.Add(allObjects[val]);
             }
         }
@@ -68,11 +69,10 @@ public class ShoppingList : MonoBehaviour
     public void updateList(string list)
     {
         TextMeshProUGUI viewedList = uiList.GetComponent<TextMeshProUGUI>();
-        for (int i = 0; i < listSize; i++)
-        {
-            viewedList.text = list;
-        }
-        fullList = completedList(); 
+
+        viewedList.text = list;
+
+        fullList = completedList();
     }
 
     public string toString()
@@ -82,11 +82,11 @@ public class ShoppingList : MonoBehaviour
         {
             if (listObjects[i].recogido)
             {
-                listString = listString + "<s>" + listObjects[i].nombre.ToString() + "</s>" + "\n";
+                listString = listString + "<s>" + listObjects[i].fullName.ToString() + "</s>" + "\n";
             }
             else
             {
-                listString = listString + listObjects[i].nombre.ToString() + "\n";
+                listString = listString + listObjects[i].fullName.ToString() + "\n";
             }
         }
         return listString;
@@ -95,7 +95,7 @@ public class ShoppingList : MonoBehaviour
     public bool completedList()
     {
         bool aux = true;
-        for(int i =0;i< listObjects.Count - 1; i++)
+        for (int i = 0; i < listObjects.Count - 1; i++)
         {
             if (listObjects[i].recogido == false)
             {

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4426f21c90f4449a8c3fde3c72c245, type: 3}
   m_Name: Ramen
   m_EditorClassIdentifier: 
-  nombre: "Ram\xE9n de sobre gal\xE1ctico"
+  nombre: Ramen
+  fullName: "Ram\xE9n de sobre gal\xE1ctico"
   recogido: 0
   spawn: {fileID: 0}
