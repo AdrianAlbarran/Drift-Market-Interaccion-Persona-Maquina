@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: "Ram\xE9n de sobre gal\xE1ctico"
   recogido: 0
+  spawn: {fileID: 0}

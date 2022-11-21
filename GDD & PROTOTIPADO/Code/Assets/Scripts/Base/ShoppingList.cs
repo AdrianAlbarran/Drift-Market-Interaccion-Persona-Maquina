@@ -17,11 +17,14 @@ public class ShoppingList : MonoBehaviour
     [SerializeField]
     private GameObject uiList;
 
+    private GameObject[] prefabs;
+
+    private bool fullList;
+
     private void Start()
     {
         openList();
         updateList(toString());
-        objectTaken(listObjects[1]);
     }
 
     // Update is called once per frame
@@ -45,7 +48,9 @@ public class ShoppingList : MonoBehaviour
             if (usedValues.Count == 0)
             {
                 usedValues.Add(val);
+                //allObjects[val].spawn?.SetActive(true);
                 listObjects.Add(allObjects[val]);
+                
             }
             else
             {
@@ -54,6 +59,7 @@ public class ShoppingList : MonoBehaviour
                     val = Random.Range(0, allObjects.Length - 1);
                 }
                 usedValues.Add(val);
+                //allObjects[val].spawn?.SetActive(true);
                 listObjects.Add(allObjects[val]);
             }
         }
@@ -66,6 +72,7 @@ public class ShoppingList : MonoBehaviour
         {
             viewedList.text = list;
         }
+        fullList = completedList(); 
     }
 
     public string toString()
@@ -83,5 +90,18 @@ public class ShoppingList : MonoBehaviour
             }
         }
         return listString;
+    }
+
+    public bool completedList()
+    {
+        bool aux = true;
+        for(int i =0;i< listObjects.Count - 1; i++)
+        {
+            if (listObjects[i].recogido == false)
+            {
+                aux = false;
+            }
+        }
+        return aux;
     }
 }

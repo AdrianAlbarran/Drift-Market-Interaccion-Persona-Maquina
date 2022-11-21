@@ -8,5 +8,6 @@ public class Objects : ScriptableObject
 {
     public string nombre;
     public bool recogido;
+    public GameObject spawn;
     
 }

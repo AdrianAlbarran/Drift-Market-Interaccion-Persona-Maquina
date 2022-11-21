@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: "Filte de Megaloat\xFAn"
   recogido: 0
+  spawn: {fileID: 0}
