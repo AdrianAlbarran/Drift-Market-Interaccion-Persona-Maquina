@@ -32,6 +32,8 @@ public class AudioManager : MonoBehaviour
                 s.source.outputAudioMixerGroup = SoundsEffectsMixerGroup;
             else if (s.audioType == Sound.AudioTypes.Music)
                 s.source.outputAudioMixerGroup = MusicMixerGroup;
+            else if (s.audioType == Sound.AudioTypes.Voice)
+                s.source.outputAudioMixerGroup = VoicesMixerGroup;
             else
                 s.source.outputAudioMixerGroup = GeneralMixerGroup;
 
@@ -56,6 +58,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Grupo del mixer que servira para subir o bajar el volumen de los efectos de sonido")]
     private AudioMixerGroup SoundsEffectsMixerGroup;
+
+    [SerializeField]
+    [Tooltip("Grupo del mixer que servira para subir o bajar el volumen de las voces")]
+    private AudioMixerGroup VoicesMixerGroup;
 
     //Inicia el sonido x
     /// <summary>

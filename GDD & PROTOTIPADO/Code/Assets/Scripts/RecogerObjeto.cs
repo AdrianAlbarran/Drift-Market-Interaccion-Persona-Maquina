@@ -17,7 +17,7 @@ public class RecogerObjeto : MonoBehaviour
         if (other.tag == ("Player"))
         {
             UI.gameObject.SetActive(true);
-            UI.GetComponent<TextMeshProUGUI>().text = "Pulsa F para Recoger " + nObjeto.fullName;
+            UI.GetComponent<TextMeshProUGUI>().text = "<color=#FF5BD2FF> Pulsa F </color> para Recoger <color=#59FFB3FF>" + nObjeto.fullName +"</color>";
             recogido = true;
         }
     }
@@ -38,6 +38,7 @@ public class RecogerObjeto : MonoBehaviour
             if (Input.GetKeyDown("f"))
             {
                 recogido = false;
+                AudioManager.instance.Play("CogerObjeto");
                 nObjeto.recogido = true;
                 lista.objectTaken();
                 GetComponent<Light>().enabled=false;
