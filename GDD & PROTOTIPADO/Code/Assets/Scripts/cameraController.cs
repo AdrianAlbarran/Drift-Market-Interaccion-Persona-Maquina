@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class cameraController : MonoBehaviour
 {
+    public float mouseSensitivy;
+    public Camera _mainCamera;
 
     public GameObject Player;
     public GameObject childFront;
@@ -15,23 +17,26 @@ public class cameraController : MonoBehaviour
     private void Awake() {
         Player = GameObject.FindGameObjectWithTag("Player");
         childFront = Player.transform.Find("constraint").gameObject;
-        childBack = Player.transform.Find("constraintBack").gameObject;
         look = Player.transform.Find("look").gameObject;
-        lookBehind = Player.transform.Find("lookBehind").gameObject;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        follow();
+        followAndRotate();
     }
 
-    private void follow() {
-        if (Input.GetAxis("Vertical") < -0.5) {
-            gameObject.transform.position = Vector3.Lerp(transform.position, childBack.transform.position, Time.deltaTime * speed);
-            gameObject.transform.LookAt(lookBehind.gameObject.transform.position);
+    private void followAndRotate() {
+        var xPos = Input.GetAxis("Mouse X");
+        var yPos = Input.GetAxis("Mouse Y");
+
+        gameObject.transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
+
+        if (Input.GetKey(KeyCode.X)) {
+            var rotationLR = transform.localEulerAngles;
+            rotationLR.y += xPos * mouseSensitivy;
+            transform.rotation = Quaternion.AngleAxis(rotationLR.y, Vector3.up);
         } else {
-            gameObject.transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
             gameObject.transform.LookAt(look.gameObject.transform.position);
         }
     }
