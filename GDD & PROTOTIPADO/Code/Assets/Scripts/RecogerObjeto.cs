@@ -35,7 +35,7 @@ public class RecogerObjeto : MonoBehaviour
     {
         if (UI.activeSelf && recogido)
         {
-            if (Input.GetKeyDown("f"))
+            if (Input.GetAxis("PickUp") == 1)
             {
                 recogido = false;
                 AudioManager.instance.Play("CogerObjeto");
