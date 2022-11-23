@@ -5,13 +5,11 @@ using UnityEngine;
 public class cameraController : MonoBehaviour
 {
     public float mouseSensitivy;
-    public Camera _mainCamera;
 
     public GameObject Player;
     public GameObject childFront;
-    public GameObject childBack;
     public GameObject look;
-    public GameObject lookBehind;
+
     public float speed;
 
     private void Awake() {
@@ -33,9 +31,12 @@ public class cameraController : MonoBehaviour
         gameObject.transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
 
         if (Input.GetAxis("FreeLook") == 1) {
+            float cam = transform.eulerAngles.x;
             var rotationLR = transform.localEulerAngles;
             rotationLR.y += xPos * mouseSensitivy;
+            
             transform.rotation = Quaternion.AngleAxis(rotationLR.y, Vector3.up);
+            transform.Rotate(cam, 0f, 0f, Space.Self);
         } else {
             gameObject.transform.LookAt(look.gameObject.transform.position);
         }
