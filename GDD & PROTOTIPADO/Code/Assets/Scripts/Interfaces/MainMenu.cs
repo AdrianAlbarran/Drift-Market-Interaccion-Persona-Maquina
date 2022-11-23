@@ -17,10 +17,16 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    void Update()
+    public void returnGame()
+    {
+        pauseMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+    }
+
+    private void Update()
     {
         // Añadir que pueda usar el boton de opciones del mando y el volante, ni idea de como
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape) && !pauseMenu.activeInHierarchy && !optionsMenu.activeInHierarchy)
         {
             onPause();
         }
