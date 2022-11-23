@@ -7,55 +7,24 @@ using System.Linq;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject pauseMenu, optionsMenu;
-    public GameObject pauseFirstButton, optionsFirstButton, optionsCloseButton;
+    public GameObject optionsMenu, startGameMenu;
+    public GameObject optionsFirstButton, optionsCloseButton;
 
     public void playGame()
     {
-        pauseMenu.SetActive(false);
+        startGameMenu.SetActive(false);
+        startGameMenu.SetActive(false);
+        Time.timeScale = 0f;
+        // Se cambia a la escena del juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        
-    }
-
-    public void returnGame()
-    {
-        pauseMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-    }
-
-    private void Update()
-    {
-        // Añadir que pueda usar el boton de opciones del mando y el volante, ni idea de como
-        if(Input.GetKeyDown(KeyCode.Escape) && !pauseMenu.activeInHierarchy && !optionsMenu.activeInHierarchy)
-        {
-            onPause();
-        }
-    }
-
-    public void onPause()
-    {
-        if(!pauseMenu.activeInHierarchy)
-        {
-            pauseMenu.SetActive(true);
-            Time.timeScale = 0f;
-
-            // Empty the selected object (needed before selecting another one)
-            EventSystem.current.SetSelectedGameObject(null);
-            //Set a new selected object
-            EventSystem.current.SetSelectedGameObject(pauseFirstButton);
-
-        }
-        else
-        {
-            pauseMenu.SetActive(false);
-            Time.timeScale = 1f;
-            optionsMenu.SetActive(true);
-        }
     }
 
     public void openOptions()
     {
         optionsMenu.SetActive(true);
+        startGameMenu.SetActive(false);
+        startGameMenu.SetActive(false);
+
 
         // Empty the selected object (needed before selecting another one)
         EventSystem.current.SetSelectedGameObject(null);
@@ -66,7 +35,7 @@ public class MainMenu : MonoBehaviour
     public void closeOptions()
     {
         optionsMenu.SetActive(false);
-        pauseMenu.SetActive(true);
+        startGameMenu.SetActive(true);
 
         // Empty the selected object (needed before selecting another one)
         EventSystem.current.SetSelectedGameObject(null);
