@@ -21,8 +21,12 @@ public class ShoppingList : MonoBehaviour
 
     private bool fullList;
 
+    private Timer timer;
+
     private void Start()
     {
+        timer = gameObject.AddComponent<Timer>();
+        timer.createTimer(320);
         openList();
         updateList(toString());
     }
@@ -30,6 +34,7 @@ public class ShoppingList : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        timer.Update();
     }
 
     public void objectTaken()
@@ -73,6 +78,7 @@ public class ShoppingList : MonoBehaviour
         viewedList.text = list;
 
         fullList = completedList();
+
     }
 
     public string toString()
@@ -95,13 +101,14 @@ public class ShoppingList : MonoBehaviour
     public bool completedList()
     {
         bool aux = true;
-        for (int i = 0; i < listObjects.Count - 1; i++)
+        for (int i = 0; i < listObjects.Count; i++)
         {
             if (listObjects[i].recogido == false)
             {
                 aux = false;
             }
         }
+        timer.setTimer(!aux);
         return aux;
     }
 }
