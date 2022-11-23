@@ -10,18 +10,27 @@ public class cameraController : MonoBehaviour
     public GameObject childFront;
     public GameObject look;
 
-    public float speed;
+    private float speed = 10;
+
+    //private float minDistancia = 1f;
+    //private float maxDistancia = 5f;
+    //private float distancia;
+    
+    //Vector3 direccion;
 
     private void Awake() {
         Player = GameObject.FindGameObjectWithTag("Player");
         childFront = Player.transform.Find("constraint").gameObject;
         look = Player.transform.Find("look").gameObject;
+        //direccion = transform.localPosition.normalized;
+        //distancia = transform.localPosition.magnitude;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         followAndRotate();
+        //camCollision();
     }
 
     private void followAndRotate() {
@@ -41,4 +50,16 @@ public class cameraController : MonoBehaviour
             gameObject.transform.LookAt(look.gameObject.transform.position);
         }
     }
+
+    //private void camCollision() {
+    //    Vector3 posDeCamara = transform.TransformPoint(direccion * maxDistancia);
+    //    RaycastHit hit;
+    //    if(Physics.Linecast(transform.position, posDeCamara, out hit)) {
+    //        distancia = Mathf.Clamp(hit.distance * 0.85f, minDistancia, maxDistancia);
+    //    } else {
+    //        distancia = maxDistancia;
+    //    }
+    //    transform.position = Vector3.Lerp(transform.position, direccion * distancia, Time.deltaTime);
+    //}
 }
+
