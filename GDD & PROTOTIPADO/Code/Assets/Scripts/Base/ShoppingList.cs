@@ -21,7 +21,7 @@ public class ShoppingList : MonoBehaviour
 
     private bool fullList;
 
-    private Timer timer;
+    public Timer timer;
 
     private void Start()
     {
@@ -29,12 +29,6 @@ public class ShoppingList : MonoBehaviour
         timer.createTimer(320);
         openList();
         updateList(toString());
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        timer.Update();
     }
 
     public void objectTaken()

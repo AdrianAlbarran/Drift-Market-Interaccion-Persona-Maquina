@@ -87,4 +87,21 @@ public class MenuInGame : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(optionsCloseButton);
     }
+
+    public void normalMode()
+    {
+        ShoppingList list = GameObject.Find("Game Manager").GetComponent<ShoppingList>();
+        list.timer.setMode(true);
+        list.timer.setTime(0);
+        selectModeMenu.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void clockMode()
+    {
+        ShoppingList list = GameObject.Find("Game Manager").GetComponent<ShoppingList>();
+        list.timer.setMode(false);
+        selectModeMenu.SetActive(false);
+        Time.timeScale = 1f;
+    }
 }
