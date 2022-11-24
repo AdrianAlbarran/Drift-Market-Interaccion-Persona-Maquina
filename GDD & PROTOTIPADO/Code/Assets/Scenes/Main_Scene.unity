@@ -5073,7 +5073,7 @@ MonoBehaviour:
   wheelLeftBack: {fileID: 851771536}
   wheelRightBack: {fileID: 357732614}
   motorTorque: 150
-  maxSteer: 15
+  maxSteer: 10
   isbrake: 0
   brakeTorque: 1000
 --- !u!65 &747039160
