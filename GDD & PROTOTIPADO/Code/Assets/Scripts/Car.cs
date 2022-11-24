@@ -31,14 +31,20 @@ public class Car : MonoBehaviour
 
     void FixedUpdate()
     {
-        wheelColliderLeftBack.motorTorque = Input.GetAxis("Vertical") * motorTorque;
-        wheelColliderRightBack.motorTorque = Input.GetAxis("Vertical") * motorTorque;
-        wheelColliderLeftFront.motorTorque = Input.GetAxis("Vertical") * motorTorque;
-        wheelColliderRightFront.motorTorque = Input.GetAxis("Vertical") * motorTorque;
+        wheelColliderLeftBack.motorTorque = Input.GetAxis("RT") * motorTorque;
+        wheelColliderRightBack.motorTorque = Input.GetAxis("RT") * motorTorque;
+        wheelColliderLeftFront.motorTorque = Input.GetAxis("RT") * motorTorque;
+        wheelColliderRightFront.motorTorque = Input.GetAxis("RT") * motorTorque;
+
+        wheelColliderLeftBack.motorTorque = Input.GetAxis("LT") * -motorTorque;
+        wheelColliderRightBack.motorTorque = Input.GetAxis("LT") * -motorTorque;
+        wheelColliderLeftFront.motorTorque = Input.GetAxis("LT") * -motorTorque;
+        wheelColliderRightFront.motorTorque = Input.GetAxis("LT") * -motorTorque;
+
         wheelColliderLeftFront.steerAngle = Input.GetAxis("Horizontal") * maxSteer;
         wheelColliderRightFront.steerAngle = Input.GetAxis("Horizontal") * maxSteer;
 
-        if (Input.GetKey(KeyCode.Space)) {
+        if (Input.GetAxis("Brake") == 1) {
             isbrake = true;
         } else {
             isbrake = false;

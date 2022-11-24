@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1009,7 +1009,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.9
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!1001 &217865865
 PrefabInstance:
@@ -1665,7 +1665,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 1}
+      key0: {r: 0.105882354, g: 0.09803922, b: 0.09803922, a: 1}
       key1: {r: 0, g: 0, b: 0, a: 0.92941177}
       key2: {r: 0, g: 0, b: 0, a: 0.61960787}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -3236,6 +3236,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469801197}
   m_CullTransparentMesh: 1
+--- !u!1 &485682607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485682609}
+  - component: {fileID: 485682608}
+  m_Layer: 0
+  m_Name: InvisibleWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &485682608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485682607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &485682609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485682607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.99, y: 2.29, z: -56.908844}
+  m_LocalScale: {x: 7.1967, y: 4.6528, z: 0.43414}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487387984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5028,7 +5072,7 @@ MonoBehaviour:
   wheelRightFront: {fileID: 235756859}
   wheelLeftBack: {fileID: 851771536}
   wheelRightBack: {fileID: 357732614}
-  motorTorque: 200
+  motorTorque: 150
   maxSteer: 15
   isbrake: 0
   brakeTorque: 1000
@@ -8426,7 +8470,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.9
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!4 &1265619069
 Transform:
@@ -10030,7 +10074,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 1}
+      key0: {r: 0.103773594, g: 0.09447313, b: 0.09447313, a: 1}
       key1: {r: 0, g: 0, b: 0, a: 0.92941177}
       key2: {r: 0, g: 0, b: 0, a: 0.61960787}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -10902,7 +10946,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.9
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!4 &1768857261 stripped
 Transform:
@@ -11181,7 +11225,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.9
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!4 &1811070451 stripped
 Transform:
