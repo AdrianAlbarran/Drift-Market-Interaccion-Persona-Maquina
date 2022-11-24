@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using System.Linq;
+using TMPro;
 
 public class MenuInGame : MonoBehaviour
 {
-    public GameObject pauseMenu, optionsMenu, selectModeMenu;
+    public GameObject pauseMenu, optionsMenu, selectModeMenu, canvasIngame;
     public GameObject pauseFirstButton, optionsFirstButton, optionsCloseButton, selectModeFirstButton;
+    public GameObject textStart;
 
     public void returnGame()
     {
@@ -28,9 +30,11 @@ public class MenuInGame : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 0f;
+        canvasIngame.SetActive(false);
         selectModeMenu.SetActive(true);
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(selectModeFirstButton);
+        
     }
 
     public void onPause()
@@ -93,15 +97,26 @@ public class MenuInGame : MonoBehaviour
         ShoppingList list = GameObject.Find("Game Manager").GetComponent<ShoppingList>();
         list.timer.setMode(true);
         list.timer.setTime(0);
+        canvasIngame.SetActive(true);
         selectModeMenu.SetActive(false);
         Time.timeScale = 1f;
+        StartCoroutine(hideText());
     }
 
     public void clockMode()
     {
         ShoppingList list = GameObject.Find("Game Manager").GetComponent<ShoppingList>();
         list.timer.setMode(false);
+        canvasIngame.SetActive(true);
         selectModeMenu.SetActive(false);
         Time.timeScale = 1f;
+        StartCoroutine(hideText());
+    }
+
+    private IEnumerator hideText()
+    {
+        yield return new WaitForSeconds(10f);
+        textStart.SetActive(false);
+
     }
 }

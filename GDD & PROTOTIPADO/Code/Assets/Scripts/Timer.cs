@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -10,16 +12,20 @@ public class Timer : MonoBehaviour
 
     private TextMeshProUGUI timerText;
 
-    public void createTimer(float timeLeft)
+    [SerializeField]
+    private TextMeshProUGUI textTimer;
+
+    public void createTimer(float timeLeft,TextMeshProUGUI text)
     {
         this.timeLeft = timeLeft;
-        this.timerText = GameObject.Find("Timer").GetComponent<TextMeshProUGUI>();
+        this.timerText = text;
         this.timerOn = true;
     }
 
     public void setTime(float time)
     {
         timeLeft = time;
+
     }
 
     public void setMode(bool mode)
@@ -48,6 +54,11 @@ public class Timer : MonoBehaviour
                 {
                     timeLeft = 0;
                     timerOn = false;
+                    if (SceneManager.GetActiveScene().buildIndex == 1)
+                    {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                    }
+                    EventSystem.current.SetSelectedGameObject(null);
                 }
             }
         }

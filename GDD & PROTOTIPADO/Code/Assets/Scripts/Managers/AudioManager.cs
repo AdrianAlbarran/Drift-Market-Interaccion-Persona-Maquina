@@ -1,10 +1,13 @@
 using System;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
+
+    public Slider sliderGeneral, sliderMusic, sliderSFX;
 
     private void Awake()
     {
@@ -40,6 +43,21 @@ public class AudioManager : MonoBehaviour
             if (s.playOnAwake)
                 s.source.Play();
         }
+    }
+
+    private void Start()
+    {
+        InilitializeVolumen();
+    }
+
+    private void InilitializeVolumen()
+    {
+        sliderGeneral.value = PlayerPrefs.GetFloat("SliderGeneral", 1.0f);
+        sliderMusic.value = PlayerPrefs.GetFloat("SliderMusic", 1.0f);
+        sliderSFX.value = PlayerPrefs.GetFloat("SliderSFX", 1.0f);
+        GeneralMixerGroup.audioMixer.SetFloat("GeneralVolume", Mathf.Log10(sliderGeneral.value) * 20);
+        GeneralMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Log10(sliderMusic.value) * 20);
+        GeneralMixerGroup.audioMixer.SetFloat("SoundsEffectsVolume", Mathf.Log10(sliderSFX.value) * 20);
     }
 
     [Tooltip("Lista de los sonidos que se van a usar")]
@@ -112,5 +130,30 @@ public class AudioManager : MonoBehaviour
         {
             return false;
         }
+    }
+
+
+
+    public void GeneralSound(float sliderValue)
+    {
+        GeneralMixerGroup.audioMixer.SetFloat("GeneralVolume", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SliderGeneral", sliderValue);
+        PlayerPrefs.Save();
+    }
+
+    //Metodo que controla el volumen sfx atraves del slider y lo guarda
+    public void SFXSound(float sliderValue)
+    {
+        SoundsEffectsMixerGroup.audioMixer.SetFloat("SoundsEffectsVolume", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SliderSFX", sliderValue);
+        PlayerPrefs.Save();
+    }
+
+    //Metodo que controla el volumen musica atraves del slider y lo guarda
+    public void MusicSound(float sliderValue)
+    {
+        SoundsEffectsMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SliderMusic", sliderValue);
+        PlayerPrefs.Save();
     }
 }

@@ -24,7 +24,7 @@ public class RecogerObjeto : MonoBehaviour
         if (other.tag == ("Player"))
         {
             UI.gameObject.SetActive(true);
-            UI.GetComponent<TextMeshProUGUI>().text = "<color=#FF5BD2FF> Pulsa F </color> para Recoger <color=#59FFB3FF>" + nObjeto.fullName +"</color>";
+            UI.GetComponent<TextMeshProUGUI>().text = "<color=#FF5BD2FF> Pulsa X/F</color> <color=#FFFFFF>para Recoger</color> <color=#59FFB3FF>" + nObjeto.fullName +"</color>";
             recogido = true;
         }
     }
@@ -50,6 +50,7 @@ public class RecogerObjeto : MonoBehaviour
                 lista.objectTaken();
                 GetComponent<Light>().enabled=false;
                 UI.gameObject.SetActive(false);
+                Destroy(GameObject.Find(prefab.name+"(Clone)"));
                 
                 Destroy(this);
             }

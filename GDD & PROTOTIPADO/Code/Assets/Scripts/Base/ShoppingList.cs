@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class ShoppingList : MonoBehaviour
 {
@@ -17,16 +19,18 @@ public class ShoppingList : MonoBehaviour
     [SerializeField]
     private GameObject uiList;
 
-    public GameObject[] prefabs;
-
     private bool fullList;
 
+    [HideInInspector]
     public Timer timer;
+
+    [SerializeField]
+    private TextMeshProUGUI timerText;
 
     private void Start()
     {
         timer = gameObject.AddComponent<Timer>();
-        timer.createTimer(320);
+        timer.createTimer(320,timerText);
         openList();
         updateList(toString());
     }
@@ -72,6 +76,15 @@ public class ShoppingList : MonoBehaviour
         viewedList.text = list;
 
         fullList = completedList();
+
+        if (fullList)
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
+            EventSystem.current.SetSelectedGameObject(null);
+        }
 
     }
 

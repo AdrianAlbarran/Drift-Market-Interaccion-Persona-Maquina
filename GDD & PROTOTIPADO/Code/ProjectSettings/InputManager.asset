@@ -55,7 +55,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: PickUp
-    descriptiveName: 
+    descriptiveName: pickup
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: f

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b4426f21c90f4449a8c3fde3c72c245, type: 3}
-  m_Name: Tentaculo
+  m_Name: Asteroids
   m_EditorClassIdentifier: 
-  nombre: Tentaculo
-  fullName: "Tent\xE1culo Gigante"
+  nombre: Asteroids
+  fullName: Asteroids 2
   recogido: 0
   spawn: {fileID: 0}
