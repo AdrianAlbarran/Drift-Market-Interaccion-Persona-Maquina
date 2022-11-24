@@ -11,7 +11,14 @@ public class RecogerObjeto : MonoBehaviour
 
     private bool recogido;
 
+    [SerializeField]
+    private GameObject prefab;
 
+
+    private void Start()
+    {
+        Instantiate(prefab, transform.position+new Vector3(0,-2,0), prefab.transform.rotation,transform);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == ("Player"))

@@ -702,6 +702,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1408119876}
     - target: {fileID: 7945003438404887005, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 8753636148716473659, guid: c36dceecd5fd37542862f2bf897e9662, type: 3}
+    - target: {fileID: 7945003438404887005, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: nObjeto
       value: 
       objectReference: {fileID: 11400000, guid: 91b5c0c6ec54275479374e5e4a37486f, type: 2}
@@ -719,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 105.76
+      value: 63.1
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -727,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 33.17
+      value: -19.5
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2321,6 +2325,7 @@ MonoBehaviour:
   UI: {fileID: 1260889561}
   nObjeto: {fileID: 0}
   lista: {fileID: 0}
+  prefab: {fileID: 0}
 --- !u!1 &669398921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8138,6 +8143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315004220}
     m_Modifications:
+    - target: {fileID: 6927391562409102166, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
+      propertyPath: rotationSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7945003438404887005, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: UI
       value: 
@@ -8146,6 +8155,10 @@ PrefabInstance:
       propertyPath: lista
       value: 
       objectReference: {fileID: 1408119876}
+    - target: {fileID: 7945003438404887005, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 4063414167731225495, guid: bb0de94a9a179e34ab2aede955a73037, type: 3}
     - target: {fileID: 7945003438404887005, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: nObjeto
       value: 
@@ -8164,7 +8177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 106.38
+      value: 66.93
       objectReference: {fileID: 0}
     - target: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
       propertyPath: m_LocalPosition.y
