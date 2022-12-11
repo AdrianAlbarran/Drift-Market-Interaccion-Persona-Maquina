@@ -42,7 +42,7 @@ public class RecogerObjeto : MonoBehaviour
     {
         if (UI.activeSelf && recogido)
         {
-            if (Input.GetAxis("PickUp") == 1)
+            if (SimpleInput.GetAxis("PickUp") == 1)
             {
                 recogido = false;
                 AudioManager.instance.Play("CogerObjeto");

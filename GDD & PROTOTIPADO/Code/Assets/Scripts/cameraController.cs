@@ -39,7 +39,7 @@ public class cameraController : MonoBehaviour
 
         gameObject.transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
 
-        if (Input.GetAxis("FreeLook") == 1) {
+        if (SimpleInput.GetAxis("FreeLook") == 1) {
             float cam = transform.eulerAngles.x;
             var rotationLR = transform.localEulerAngles;
             rotationLR.y += xPos * mouseSensitivy;
