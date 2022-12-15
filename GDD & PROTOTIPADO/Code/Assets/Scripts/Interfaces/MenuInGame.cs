@@ -8,8 +8,8 @@ using TMPro;
 
 public class MenuInGame : MonoBehaviour
 {
-    public GameObject pauseMenu, optionsMenu, selectModeMenu, canvasIngame;
-    public GameObject pauseFirstButton, optionsFirstButton, optionsCloseButton, selectModeFirstButton;
+    public GameObject pauseMenu, optionsMenu, selectModeMenu, canvasIngame, warningText;
+    public GameObject pauseFirstButton, optionsFirstButton, optionsCloseButton, selectModeFirstButton, warningNoButton;
     public GameObject textStart;
 
     public void returnGame()
@@ -39,7 +39,7 @@ public class MenuInGame : MonoBehaviour
 
     public void onPause()
     {
-        if (!pauseMenu.activeInHierarchy && !optionsMenu.activeInHierarchy && !selectModeMenu.activeInHierarchy)
+        if (!pauseMenu.activeSelf && !optionsMenu.activeSelf && !selectModeMenu.activeSelf && !warningText.activeSelf)
         {
             Time.timeScale = 0f;
             pauseMenu.SetActive(true);
@@ -80,16 +80,46 @@ public class MenuInGame : MonoBehaviour
         Application.Quit();
     }
 
-    public void volverMainMenu()
+    public void returnMainMenu()
     {
         selectModeMenu.SetActive(false);
+
+        if(pauseMenu.activeSelf == true)
+        {
+            pauseMenu.SetActive(false);
+            warningText.SetActive(true);
+
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(warningNoButton);
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(optionsCloseButton);
+        }
+    }
+
+    public void noWarning()
+    {
+        warningText.SetActive(false);
+        pauseMenu.SetActive(true);
+
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(pauseFirstButton);
+    }
+
+    public void yesWarning()
+    {
+        warningText.SetActive(false);
 
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(optionsCloseButton);
     }
 
     public void normalMode()
@@ -119,4 +149,5 @@ public class MenuInGame : MonoBehaviour
         textStart.SetActive(false);
 
     }
+
 }
