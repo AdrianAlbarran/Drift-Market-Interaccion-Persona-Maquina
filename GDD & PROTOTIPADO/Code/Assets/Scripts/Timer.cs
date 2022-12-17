@@ -56,7 +56,7 @@ public class Timer : MonoBehaviour
                     timerOn = false;
                     if (SceneManager.GetActiveScene().buildIndex == 1)
                     {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                        SceneManager.LoadScene("Lose_Scene");
                     }
                     EventSystem.current.SetSelectedGameObject(null);
                 }

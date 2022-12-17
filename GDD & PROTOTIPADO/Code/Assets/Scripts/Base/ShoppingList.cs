@@ -30,7 +30,7 @@ public class ShoppingList : MonoBehaviour
     private void Start()
     {
         timer = gameObject.AddComponent<Timer>();
-        timer.createTimer(320,timerText);
+        timer.createTimer(5,timerText);
         openList();
         updateList(toString());
     }
@@ -81,7 +81,7 @@ public class ShoppingList : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().buildIndex == 1)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                SceneManager.LoadScene("Win_Scene");
             }
             EventSystem.current.SetSelectedGameObject(null);
         }
