@@ -30,7 +30,7 @@ public class ShoppingList : MonoBehaviour
     private void Start()
     {
         timer = gameObject.AddComponent<Timer>();
-        timer.createTimer(5,timerText);
+        timer.createTimer(180,timerText);
         openList();
         updateList(toString());
     }
