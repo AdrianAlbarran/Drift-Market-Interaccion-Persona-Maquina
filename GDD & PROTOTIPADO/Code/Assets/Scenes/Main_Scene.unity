@@ -183,8 +183,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (54)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &21582046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 21582045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &21582047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21582046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 9.313226e-10}
 --- !u!1001 &25307335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,8 +259,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (50)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &25307336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 25307335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &25307337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25307336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 9.313226e-10}
 --- !u!1 &51511664
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,8 +623,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (21)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &76901523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 76901522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &76901524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76901523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: -0.000000059604645, y: -0.000000059604645, z: -0.000000011175871}
 --- !u!4 &77801231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -933,8 +990,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (56)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &123356888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 123356887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &123356889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123356888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0.0000000027939677}
 --- !u!1 &124500615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,8 +1226,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &143730649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 143730648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &143730650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143730649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0.0000000037252903}
 --- !u!1 &149522933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,8 +1340,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (33)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &151070227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 151070226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &151070228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151070227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!1001 &159097061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1302,8 +1416,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (65)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &159097062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 159097061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &159097063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159097062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!4 &180035173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -1482,8 +1615,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (28)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &217865866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 217865865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &217865867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217865866}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0}
 --- !u!4 &218080068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -1666,8 +1818,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (64)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &244817643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 244817642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &244817644
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244817643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000007450581, z: -0.0000000018626451}
 --- !u!1001 &252702945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1723,8 +1894,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (49)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &252702946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 252702945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &252702947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252702946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 9.313226e-10}
 --- !u!1001 &259725306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1862,8 +2052,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (68)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &268517391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 268517390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &268517392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268517391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: 0.000000059604645, z: -0.000000007450581}
 --- !u!4 &276140378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -1924,8 +2133,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &279199572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 279199571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &279199573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279199572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0.0000000037252903}
 --- !u!4 &281160313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -1986,8 +2214,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (78)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &288386237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 288386236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &288386238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288386237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.000000007450581}
 --- !u!1 &289759694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,8 +2429,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (70)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &295109716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 295109715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &295109717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295109716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: 0, z: -0.000000014901161}
 --- !u!1 &302839352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,8 +2535,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (62)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &312793312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 312793311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &312793313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312793312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000023841858, y: -0.000000014901161, z: -0.000000004656613}
 --- !u!1001 &321681621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2326,8 +2611,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &321681622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 321681621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &321681623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321681622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0.0000000037252903}
 --- !u!1 &322173883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,8 +2721,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (72)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &323428850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 323428849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &323428851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323428850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!1 &325802756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,8 +2942,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (23)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &335239219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 335239218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &335239220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335239219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!4 &342146163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -2820,8 +3162,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (71)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &348163505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 348163504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &348163506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348163505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0.0000000037252903}
 --- !u!4 &355409015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062917171848900433, guid: 3481d8fff8e7c4843bc13a22fa636563, type: 3}
@@ -3015,8 +3376,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &413054546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 413054545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &413054547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413054546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000001, y: 0.02, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &418001522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3072,8 +3452,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (59)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &418001523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 418001522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &418001524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418001523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.0000000121071935}
 --- !u!1 &428744004
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,8 +3752,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &452271411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 452271410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &452271412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452271411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000007450581, z: 0}
 --- !u!1 &454982917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,8 +3932,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (34)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &459457486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 459457485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &459457487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459457486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: 0.000000029802322, z: -0.000000011175871}
 --- !u!1 &469801197
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,8 +4296,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (40)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &497946322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 497946321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &497946323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497946322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000011920929, y: 0.000000014901161, z: 0.0000000037252903}
 --- !u!4 &505865400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -4028,8 +4484,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (19)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &549465273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 549465272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &549465274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549465273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0.000000059604645, z: -0.000000007450581}
 --- !u!4 &576718225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -4165,8 +4640,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (37)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &620835150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 620835149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &620835151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620835150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000007450581}
 --- !u!1001 &635105452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4226,8 +4720,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (67)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &635105453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 635105452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &635105454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635105453}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Center: {x: -0.00000023841858, y: 0, z: -0.000000004656613}
 --- !u!1 &644275242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4485,8 +4998,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (44)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &651337766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 651337765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &651337767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651337766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0}
 --- !u!4 &675994340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -4665,8 +5197,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (26)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &696272632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 696272631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &696272633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696272632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!1 &700420893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,8 +5411,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &700808475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 700808474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &700808476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700808475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000029802322, z: -0.000000004656613}
 --- !u!4 &701976662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -4922,8 +5492,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &702029496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 702029495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &702029497
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702029496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000023841858, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5217,8 +5806,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &729194206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 729194205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &729194207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729194206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000001, z: 0.020000005}
+  m_Center: {x: 0.00000011920929, y: 0, z: -0.000000004656613}
 --- !u!1 &730263531
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,8 +6058,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (61)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &741257441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 741257440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &741257442
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741257441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: -0.000000059604645, y: 0, z: -0.0000000055879354}
 --- !u!4 &743806224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8734556325693291247, guid: 371a3b6fc504bca4781cc6f6b672ccca, type: 3}
@@ -5526,6 +6153,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 98b059bfbe6c81544b311873d9f9a971, type: 3}
   m_PrefabInstance: {fileID: 825547983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &747039163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747039158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6797b1d536594af4a899ac131084015a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &751405504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5647,8 +6286,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (41)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &754423491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 754423490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &754423492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754423491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!1001 &762304368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5704,8 +6362,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (69)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &762304369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 762304368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &762304370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762304369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: 0.000000029802322, z: -0.000000011175871}
 --- !u!1001 &774960739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5932,8 +6609,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (58)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &777165458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 777165457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &777165459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777165458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0.000000059604645, y: -0.000000059604645, z: -0.000000008381903}
 --- !u!1001 &791924946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5989,8 +6685,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (83)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &791924947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 791924946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &791924948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791924947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0.000000029802322, y: 0, z: -0.000000004656613}
 --- !u!1001 &792996358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6046,8 +6761,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (25)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &792996359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 792996358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &792996360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792996359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!1001 &825547983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6520,8 +7254,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (77)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &857164717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 857164716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &857164718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857164717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000007450581}
 --- !u!1 &863465574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7090,8 +7843,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (18)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &994352660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 994352659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &994352661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994352660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.000000011175871}
 --- !u!1001 &999047705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7147,8 +7919,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (38)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &999047706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 999047705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &999047707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999047706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000011920929, y: 0.000000014901161, z: 0.0000000037252903}
 --- !u!4 &1028873615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -7392,8 +8183,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (60)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1064363298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1064363297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1064363299
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064363298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: -0.000000029802322, z: -0.000000008381903}
 --- !u!4 &1073432327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -7564,8 +8374,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1129410114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1129410113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1129410115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129410114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!4 &1141131779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -7631,8 +8460,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (43)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1152179856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1152179855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1152179857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152179856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000011920929, y: 0.000000029802322, z: 0}
 --- !u!1 &1159979263
 GameObject:
   m_ObjectHideFlags: 0
@@ -7899,8 +8747,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (79)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1172089161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1172089160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1172089162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172089161}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000029802322, z: -0.000000014901161}
 --- !u!1001 &1174738226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7956,8 +8823,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1174738227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1174738226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1174738228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174738227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!4 &1175061146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -8028,8 +8914,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (76)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1198988553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1198988552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1198988554
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198988553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0.000000059604645, z: -0.000000007450581}
 --- !u!1 &1200267782
 GameObject:
   m_ObjectHideFlags: 0
@@ -8254,8 +9159,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (53)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1213002423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1213002422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1213002424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213002423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000023841858, y: -0.000000014901161, z: 9.313226e-10}
 --- !u!4 &1218490520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -8450,8 +9374,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (47)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1238162978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1238162977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1238162979
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238162978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000023841858, y: 0.000000014901161, z: 9.313226e-10}
 --- !u!1001 &1244175833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8507,8 +9450,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (45)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1244175834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1244175833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1244175835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244175834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000011920929, y: 0.000000014901161, z: 0}
 --- !u!1001 &1251314957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8564,8 +9526,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (66)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1251314958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1251314957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1251314959
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251314958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: -0.0000000018626451}
 --- !u!1 &1253866272
 GameObject:
   m_ObjectHideFlags: 0
@@ -8696,8 +9677,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (57)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1255815012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1255815011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1255815013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255815012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0, y: 0, z: -0.000000011175871}
 --- !u!1 &1259981264
 GameObject:
   m_ObjectHideFlags: 0
@@ -9093,8 +10093,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (82)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1284125124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1284125123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1284125125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284125124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000008381903}
 --- !u!4 &1287248503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -9430,8 +10449,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (52)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1362512475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1362512474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1362512476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362512475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000011920929, y: 0.000000014901161, z: 9.313226e-10}
 --- !u!4 &1370043646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -9492,8 +10530,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1381045505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1381045504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1381045506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381045505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!1001 &1386755772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9606,8 +10663,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (81)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1389112757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1389112756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1389112758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389112757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000011175871}
 --- !u!1001 &1396742288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9663,8 +10739,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (48)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1396742289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1396742288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1396742290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396742289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0.000000059604645, y: -0.000000029802322, z: -0.0000000055879354}
 --- !u!1001 &1401014059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9720,8 +10815,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (80)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1401014060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1401014059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1401014061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401014060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.000000011175871}
 --- !u!1 &1408119872
 GameObject:
   m_ObjectHideFlags: 0
@@ -9944,8 +11058,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (75)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1413223386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1413223385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1413223387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413223386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.000000011175871}
 --- !u!1 &1428101335
 GameObject:
   m_ObjectHideFlags: 0
@@ -10140,8 +11273,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (32)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1453315024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1453315023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1453315025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453315024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0}
 --- !u!1001 &1477053545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10197,8 +11349,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (84)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1477053546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1477053545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1477053547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477053546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0.000000029802322, y: 0, z: -0.000000008381903}
 --- !u!1001 &1491957398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10258,8 +11429,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1491957399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1491957398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1491957400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491957399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000001, z: 0.020000005}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.000000008381903}
 --- !u!4 &1496183739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -10448,8 +11638,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (22)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1522308293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1522308292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1522308294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522308293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!1 &1523745082
 GameObject:
   m_ObjectHideFlags: 0
@@ -10720,8 +11929,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (55)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1597153266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1597153265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1597153267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597153266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: -0.00000023841858, y: 0, z: 0}
 --- !u!4 &1610277039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -10931,8 +12159,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1645425571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1645425570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1645425572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645425571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000007450581, z: 0}
 --- !u!1001 &1649895387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10988,8 +12235,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (36)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1649895388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1649895387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1649895389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649895388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: -0.000000029802322, z: -0.000000011175871}
 --- !u!4 &1653184594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -11281,8 +12547,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1688330039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1688330038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1688330040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688330039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!1 &1691262430
 GameObject:
   m_ObjectHideFlags: 0
@@ -11488,8 +12773,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (30)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1699261663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1699261662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1699261664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699261663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!1001 &1713610637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11545,8 +12849,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (42)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1713610638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1713610637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1713610639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713610638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000011920929, y: -0.000000014901161, z: 0}
 --- !u!1001 &1725611046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11602,8 +12925,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (31)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1725611047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1725611046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1725611048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725611047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000029802322, z: 0}
 --- !u!1001 &1759426594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11659,8 +13001,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (39)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1759426595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1759426594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1759426596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759426595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!1001 &1764623001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11716,8 +13077,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (29)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1764623002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1764623001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1764623003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764623002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!4 &1766617429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -11928,8 +13308,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (73)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1783307535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1783307534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1783307536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783307535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!1001 &1784251812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11985,8 +13384,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (35)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1784251813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1784251812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1784251814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784251813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: 0.000000059604645, y: -0.000000029802322, z: -0.000000007450581}
 --- !u!4 &1795298953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -12352,8 +13770,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (63)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1836666698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1836666697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1836666699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836666698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0.0000000037252903}
 --- !u!4 &1868998991 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -12583,8 +14020,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1898493615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1898493614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1898493616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898493615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000009313226}
 --- !u!4 &1902168314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062917171848900433, guid: 3481d8fff8e7c4843bc13a22fa636563, type: 3}
@@ -12650,8 +14106,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (24)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1909456842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1909456841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1909456843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909456842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!4 &1926297157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -12716,8 +14191,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1928367752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1928367751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1928367753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928367752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000001, y: 0.02, z: 0.02}
+  m_Center: {x: 0, y: -0.000000014901161, z: 0}
 --- !u!1 &1933939368
 GameObject:
   m_ObjectHideFlags: 0
@@ -13161,8 +14655,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (20)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1983889666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1983889665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1983889667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983889666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.020000005}
+  m_Center: {x: -0.000000059604645, y: 0, z: -0.000000014901161}
 --- !u!4 &1988743145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -13326,8 +14839,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (74)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &2026615135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 2026615134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2026615136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026615135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000009, z: 0.020000013}
+  m_Center: {x: 0, y: 0, z: -0.000000007450581}
 --- !u!1 &2030890005
 GameObject:
   m_ObjectHideFlags: 0
@@ -13569,8 +15101,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (27)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &2061889741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 2061889740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2061889742
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061889741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!4 &2062158912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -13725,8 +15276,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (51)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &2130932488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 2130932487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2130932489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130932488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000011920929, y: 0, z: 9.313226e-10}
 --- !u!1001 &2135623642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13782,8 +15352,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (46)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &2135623643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 2135623642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2135623644
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135623643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000011920929, y: 0, z: 9.313226e-10}
 --- !u!4 &2139010293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508709648081061301, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
@@ -13854,8 +15443,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: estanteriaBienDeVerdad (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7522567540521313252, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+--- !u!1 &1464449041182820423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 884003046535716623, guid: ebeb9ef9d855f0a4689e1284657db786, type: 3}
+  m_PrefabInstance: {fileID: 1464449041182820422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1464449041182820424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464449041182820423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999998, z: 0.02}
+  m_Center: {x: 0.00000011920929, y: -0.000000007450581, z: 0}
 --- !u!4 &6256434815839610895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062917171848900433, guid: 3481d8fff8e7c4843bc13a22fa636563, type: 3}
