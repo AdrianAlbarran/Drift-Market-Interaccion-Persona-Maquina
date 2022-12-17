@@ -20,8 +20,8 @@ public class MenuInGame : MonoBehaviour
 
     private void Update()
     {
-        // Añadir que pueda usar el boton de opciones del mando y el volante, ni idea de como
-        if (Input.GetKeyDown(KeyCode.Escape) && !pauseMenu.activeInHierarchy && !optionsMenu.activeInHierarchy)
+        // Aï¿½adir que pueda usar el boton de opciones del mando y el volante, ni idea de como
+        if (SimpleInput.GetButtonDown("Start") && !pauseMenu.activeInHierarchy && !optionsMenu.activeInHierarchy)
         {
             onPause();
         }
