@@ -20,6 +20,7 @@ public class Car : MonoBehaviour
     public float maxSteer = 40f;
     public bool isbrake = false;
     public float brakeTorque = 100f;
+    private Vector3 targetPos;
 
     private Rigidbody _rigidbody;
 
@@ -27,6 +28,7 @@ public class Car : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.centerOfMass = centerOfMass.localPosition;
+        targetPos = centerOfMass.localPosition;
     }
 
     void FixedUpdate()
