@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_AmbientSkyColor: {r: 0.17354932, g: 0.19922803, b: 0.5660378, a: 1}
+  m_AmbientEquatorColor: {r: 0.6229975, g: 0.7038254, b: 0.754717, a: 1}
+  m_AmbientGroundColor: {r: 0.1654084, g: 0.13612494, b: 0.21698111, a: 1}
+  m_AmbientIntensity: 1.01
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.4772606, g: 0.542436, b: 0.7075472, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fce799352e37c914e91bd84699c4a6a4, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.15945745, g: 0.021226386, b: 0.2689417, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2328,9 +2328,9 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.105882354, g: 0.09803922, b: 0.09803922, a: 1}
-      key1: {r: 0, g: 0, b: 0, a: 0.92941177}
-      key2: {r: 0, g: 0, b: 0, a: 0.61960787}
+      key0: {r: 0.105882354, g: 0.09803922, b: 0.09803922, a: 0.85882354}
+      key1: {r: 0, g: 0, b: 0, a: 0.6039216}
+      key2: {r: 0, g: 0, b: 0, a: 0.5176471}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -2344,8 +2344,8 @@ TrailRenderer:
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 0
-      atime1: 39128
+      atime0: 193
+      atime1: 34695
       atime2: 49537
       atime3: 65535
       atime4: 0
@@ -3349,7 +3349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7018697473328293539, guid: 6222cfce5f6872341a461061910f0b76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.3241
+      value: -14.34
       objectReference: {fileID: 0}
     - target: {fileID: 7018697473328293539, guid: 6222cfce5f6872341a461061910f0b76, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3387,6 +3387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fuenteBien
       objectReference: {fileID: 0}
+    - target: {fileID: 8154964454857366988, guid: 6222cfce5f6872341a461061910f0b76, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 8179950471607230371, guid: 5316f62101173df4aadc67e4ee600e99, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6222cfce5f6872341a461061910f0b76, type: 3}
 --- !u!1001 &413054545
@@ -10341,7 +10345,6 @@ MonoBehaviour:
   Player: {fileID: 0}
   childFront: {fileID: 0}
   look: {fileID: 0}
-  t_camera: {fileID: 1347649535}
 --- !u!1 &1350272808
 GameObject:
   m_ObjectHideFlags: 0
@@ -11912,9 +11915,9 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.103773594, g: 0.09447313, b: 0.09447313, a: 1}
-      key1: {r: 0, g: 0, b: 0, a: 0.92941177}
-      key2: {r: 0, g: 0, b: 0, a: 0.61960787}
+      key0: {r: 0.103773594, g: 0.09447313, b: 0.09447313, a: 0.85882354}
+      key1: {r: 0, g: 0, b: 0, a: 0.6039216}
+      key2: {r: 0, g: 0, b: 0, a: 0.5176471}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
