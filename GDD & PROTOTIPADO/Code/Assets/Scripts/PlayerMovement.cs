@@ -16,8 +16,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        horizontalInput = SimpleInput.GetAxis("Horizontal");
+        forwardInput = SimpleInput.GetAxis("Vertical");
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
         if (Input.GetKeyDown(KeyCode.Escape))
