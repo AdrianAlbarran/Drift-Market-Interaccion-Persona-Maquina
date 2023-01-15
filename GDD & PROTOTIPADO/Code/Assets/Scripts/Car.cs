@@ -14,7 +14,10 @@ public class Car : MonoBehaviour
     public Transform wheelLeftFront;
     public Transform wheelRightFront;
     public Transform wheelLeftBack;
-    public Transform wheelRightBack;    
+    public Transform wheelRightBack;   
+
+    public TrailRenderer trail1;
+    public TrailRenderer trail2;
 
     public float motorTorque = 400f;
     public float maxSteer = 40f;
@@ -55,8 +58,12 @@ public class Car : MonoBehaviour
 
         if (SimpleInput.GetAxis("Brake") > 0) {
             isbrake = true;
+            trail1.emitting = true;
+            trail2.emitting = true;
         } else {
             isbrake = false;
+            trail1.emitting = false;
+            trail2.emitting = false;
         }
         
         if (isbrake == true) {
