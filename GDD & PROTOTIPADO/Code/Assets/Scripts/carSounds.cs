@@ -18,7 +18,6 @@ public class carSounds : MonoBehaviour
         carAudio = GetComponent<AudioSource>();
         carAudio.loop = true;
         carAudio.mute = true;
-        
         carRb = GetComponent<Rigidbody>();
     }
 
@@ -40,9 +39,6 @@ public class carSounds : MonoBehaviour
         {
             carAudio.volume = (currentSpeed / maxSpeed);
             carAudio.mute = false;
-        } else if (currentSpeed > maxSpeed)
-        {
-            carAudio.volume = 1;
         }
     }
 
