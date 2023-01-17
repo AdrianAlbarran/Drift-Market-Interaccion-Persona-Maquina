@@ -30,6 +30,13 @@ Coordinación del equipo. Para la coordinación del equipo se usará Trello, usa
 ## - Motor de juego:
 Se usará Unity
 
+## - Controles:
+WASD - Moverse
+SPACE - Drifting
+F - Interactuar
+MOUSE - Mover la cámara
+R - Resetear la posición del carrito
+
  ## Team:
  <table>
   <thead>
