@@ -10,56 +10,47 @@ public class cameraController : MonoBehaviour
     public GameObject childFront;
     public GameObject look;
 
-    private float speed = 10;
+    public Rigidbody rb;
 
-    //private float minDistancia = 1f;
-    //private float maxDistancia = 5f;
-    //private float distancia;
-    
-    //Vector3 direccion;
+    private float speed = 15;
+    private float speedRot = 35;
+
+    private Vector3 childFrontPos;
 
     private void Awake() {
         Player = GameObject.FindGameObjectWithTag("Player");
         childFront = Player.transform.Find("constraint").gameObject;
         look = Player.transform.Find("look").gameObject;
-        //direccion = transform.localPosition.normalized;
-        //distancia = transform.localPosition.magnitude;
+        childFrontPos = childFront.transform.localPosition;
+        rb = Player.GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         followAndRotate();
-        //camCollision();
     }
 
     private void followAndRotate() {
-        var xPos = Input.GetAxis("Mouse X");
-        var yPos = Input.GetAxis("Mouse Y");
+        transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
+        float mouseX = SimpleInput.GetAxis("Mouse X") * mouseSensitivy * Time.deltaTime;
+        float mouseY = SimpleInput.GetAxis("Mouse Y") * mouseSensitivy * Time.deltaTime;
+        transform.RotateAround(Player.transform.position, Vector3.up, mouseX);
+        transform.RotateAround(Player.transform.position, transform.right, -mouseY);
 
-        gameObject.transform.position = Vector3.Lerp(transform.position, childFront.transform.position, Time.deltaTime * speed);
+        Quaternion targetRotation = Quaternion.LookRotation(look.transform.position - transform.position);
+        if (SimpleInput.GetAxis("Horizontal") > 0.5 || SimpleInput.GetAxis("Vertical") > 0.5 || SimpleInput.GetAxis("Horizontal") < -0.5 || SimpleInput.GetAxis("Vertical") < -0.5 || rb.velocity.magnitude > 3f) {
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, speedRot * Time.deltaTime);
+        }
 
-        if (SimpleInput.GetAxis("FreeLook") > 0) {
-            float cam = transform.eulerAngles.x;
-            var rotationLR = transform.localEulerAngles;
-            rotationLR.y += xPos * mouseSensitivy;
-            
-            transform.rotation = Quaternion.AngleAxis(rotationLR.y, Vector3.up);
-            transform.Rotate(cam, 0f, 0f, Space.Self);
-        } else {
-            gameObject.transform.LookAt(look.gameObject.transform.position);
+        //camCollision
+        RaycastHit hit;
+        if (Physics.Raycast(childFront.transform.position, transform.position - childFront.transform.position, out hit, 6f)) {
+            if (hit.transform.tag != "Player") {
+                childFront.transform.localPosition = Vector3.Lerp(childFront.transform.localPosition, new Vector3(childFrontPos.x, childFrontPos.y, -hit.distance), speed * Time.deltaTime);
+            } else {
+                childFront.transform.localPosition = Vector3.Lerp(childFront.transform.localPosition, childFrontPos, speed * Time.deltaTime);
+            }
         }
     }
-
-    //private void camCollision() {
-    //    Vector3 posDeCamara = transform.TransformPoint(direccion * maxDistancia);
-    //    RaycastHit hit;
-    //    if(Physics.Linecast(transform.position, posDeCamara, out hit)) {
-    //        distancia = Mathf.Clamp(hit.distance * 0.85f, minDistancia, maxDistancia);
-    //    } else {
-    //        distancia = maxDistancia;
-    //    }
-    //    transform.position = Vector3.Lerp(transform.position, direccion * distancia, Time.deltaTime);
-    //}
 }
 
