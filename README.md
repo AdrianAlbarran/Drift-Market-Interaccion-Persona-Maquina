@@ -31,11 +31,11 @@ Coordinación del equipo. Para la coordinación del equipo se usará Trello, usa
 Se usará Unity
 
 ## - Controles:
-WASD - Moverse
-SPACE - Drifting
-F - Interactuar
-MOUSE - Mover la cámara
-R - Resetear la posición del carrito
+<br>WASD - Moverse<br/>
+<br>SPACE - Drifting<br/>
+<br>F - Interactuar<br/>
+<br/>MOUSE - Mover la cámara<br/>
+<br>R - Resetear la posición del carrito<br/>
 
  ## Team:
  <table>
